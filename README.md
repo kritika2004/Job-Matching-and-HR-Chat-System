@@ -20,7 +20,7 @@ Handles missing values to ensure clean and accurate results.
 #### Similarity Calculation Methods:
 
 TF-IDF: Measures cosine similarity between term-weighted vectors.
-Jaccard Similarity: Calculates overlap of unique terms between resumes and jobs.
+Jaccard Similarity: Calculates the overlap of unique terms between resumes and jobs.
 BERT + FAISS: Leverages contextual embeddings from the BERT model and accelerates similarity search using FAISS.
 Word2Vec: Captures semantic similarities using word embeddings.
 
@@ -165,7 +165,7 @@ Integrate response feedback from users to fine-tune iteratively.
 Add capabilities like generating sample resumes or recommending career resources.
 
 Reducing overmatching:
-TF-IDF or other vectorization methods to give higher weight to keywords (e.g., specific skills, job titles) to solve overmatching based on non-key words such as conjunctions or other commonly used words.
+TF-IDF or other vectorization methods to give higher weight to keywords (e.g., specific skills, job titles) to solve overmatching based on non-keywords such as conjunctions or other commonly used words.
 
 Example queries:
 "Show me the top matches for Resume ID 12345."
