@@ -1,15 +1,15 @@
-# Job-Matching-and-HR-Chat-System
+# Job-Matching-and-Job_Seekers-Chat-System
 
 ## Project Overview
 This project comprises two main components:
 
-Job Matching Script: Automates the process of matching resumes to job descriptions using various similarity measures (TF-IDF, Jaccard, BERT, Word2Vec, etc.). Provides insights into the relevance of resumes to job postings using visualization and interactive analysis.
+Job Matching Script: Automates the process of matching resumes to job descriptions using various similarity measures (TF-IDF, Jaccard, BERT, Word2Vec). Provides insights into the relevance of resumes to job postings using visualization and interactive analysis.
 
-Chat Job for HR: A conversational AI tool designed to assist HR personnel by providing quick insights, answering queries about job matches, and managing job-related conversations.
+Chat Bot for Job Seekers: A conversational AI tool designed to assist job seekers by providing quick insights, answering queries about job matches, and managing job-related conversations.
 
 ## Part 1: Job Matching Script
 Description
-This script analyzes and ranks resumes against job postings using advanced natural language processing (NLP) techniques. Multiple similarity measures are implemented to compare resumes with job descriptions. Visualizations, interactive plots, and tabular results are provided to help HR teams quickly identify the best candidates.
+This script analyzes and ranks resumes against job postings using advanced natural language processing (NLP) techniques. Multiple similarity measures are implemented to compare resumes with job descriptions. Visualizations, interactive plots, and tabular results are provided to help job seekers quickly identify the most suitable jobs.
 
 ### Features
 #### Data Cleaning and Preprocessing:
@@ -88,15 +88,15 @@ The Word2Vec-based scores are notably high (around 0.99), suggesting that embedd
 Matches like "SALES" and "Legal Secretary" dominate, which may not reflect meaningful semantic relationships but rather generic token similarities.
 While Word2Vec can provide value, it appears less reliable for resume-to-job matching in this case.
 ### Recommended Algorithms
-BERT + FAISS: The best-performing algorithm for capturing semantic and contextual relevance. Ideal for finding resumes that align with nuanced job descriptions.
+BERT + FAISS: The best-performing algorithm for capturing semantic and contextual relevance. It is ideal for finding resumes that align with nuanced job descriptions.
 TF-IDF: Performs well in identifying straightforward textual overlaps and is computationally lightweight. Useful for bulk pre-screening.
 Jaccard: Has limited utility due to its reliance on exact word overlap, which is less relevant for resume data.
 Word2Vec: Its high scores likely indicate overgeneralization, making it less useful for distinguishing nuanced matches.
 
 
-## Part 2: Chat Job for HR
+## Part 2: Chat Bot for Job Seekers
 ### Description
-The HR Chat module leverages conversational AI to streamline communication between HR personnel and job candidates. It allows HR to interact with the system to retrieve job matching insights, manage conversations, and provide a seamless experience for candidate screening.
+The ChatBot module leverages conversational AI to streamline communication between job seekers and HR. It allows job seekers to interact with the system to find relevant job openings, ask questions, and receive timely updates throughout the application process.
 
 ![image](https://github.com/user-attachments/assets/03a36db4-23b7-453f-8766-24c668ac10ea)
 
@@ -171,5 +171,5 @@ Example queries:
 Integrate with Job Matching Results:
 
 
-### This two-part project aims to simplify the hiring process by combining advanced NLP techniques for job matching with an intuitive conversational interface for HR professionals. By automating and enhancing candidate-job matching, this tool provides valuable insights, reduces manual effort, and improves hiring efficiency.
+### This two-part project aims to simplify the hiring process by combining advanced NLP techniques for job matching with an intuitive conversational interface for Job seekers. By automating and enhancing candidate-job matching, this tool provides valuable insights, reduces manual effort, and improves hiring efficiency.
 
