@@ -176,3 +176,16 @@ Integrate with Job Matching Results:
 
 ### This two-part project aims to simplify the hiring process by combining advanced NLP techniques for job matching with an intuitive conversational interface for Job seekers. By automating and enhancing candidate-job matching, this tool provides valuable insights, reduces manual effort, and improves hiring efficiency.
 
+## Literature Review and Existing Research
+
+# Risks
+There are many risks we seeks to avoid when setting up machine learning systems for matching resumes with job postings.
+the first risk widely covered in the literature is around bias in the algorithm.
+Every pretrained model introduces the risk of bias in the training data. This is a particular risks in models such as BERT which depend heavily on their training data. 
+There is eveidence of models favoring specific demographics or excluding non-traditional resumes from being selected for advancement in the stages of the hiring process.
+
+one other risk is that of an over reliance on keywords and matching in the selection process. Approaches like TF-IDF and Jaccard Similarity heavily depend on matching exact words. Language is conplicated and these systems struggle with matching semantics and similarities. There is also a risk of misinterpreting the context of words and tokens. The classic case of this is these systems struggling with recognizing sarcasm. 
+These systems also face difficulties with understanding nuances like soft skills or transferable experiences. These are very human contexts that require lots of context to understand that many language models lack.
+
+Another risk is that of false positives and negatives in matching. These systems are built with selection or non-selection as the end goal in mind. As such, some matching algorithms may flag irrelevant resumes as a match (false positives) or overlook qualified candidates (false negatives.
+
