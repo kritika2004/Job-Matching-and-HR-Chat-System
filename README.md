@@ -171,7 +171,6 @@ Example queries:
 "Show me the top matches for Resume ID 12345."
 "Which jobs are best suited for this candidate?"
 "Provide similarity scores for all positions related to 'Data Scientist'."
-Integrate with Job Matching Results:
 
 
 ### This two-part project aims to simplify the hiring process by combining advanced NLP techniques for job matching with an intuitive conversational interface for Job seekers. By automating and enhancing candidate-job matching, this tool provides valuable insights, reduces manual effort, and improves hiring efficiency.
