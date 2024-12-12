@@ -164,6 +164,9 @@ Interactive Features:
 Integrate response feedback from users to fine-tune iteratively.
 Add capabilities like generating sample resumes or recommending career resources.
 
+Reducing overmatching:
+TF-IDF or other vectorization methods to give higher weight to keywords (e.g., specific skills, job titles) to solve overmatching based on non-key words such as conjunctions or other commonly used words
+
 Example queries:
 "Show me the top matches for Resume ID 12345."
 "Which jobs are best suited for this candidate?"
